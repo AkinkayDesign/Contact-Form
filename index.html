@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="con-us.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="success">
+      <div class="tick-bar">
+        <img src="./assets/images/icon-success-check.svg" alt="">
+        <h2>Message Sent!</h2>
+      </div>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+  </section>
+
+ 
+
+  <section class="container">
+     <h1 id="conus">Contact Us</h1>
+    <form id="form">
+    <div class="wrapper">
+        <div class="wrap">
+        <label for="first-name">First Name</label>
+        <input type="text" class="first-name" placeholder="Your First Name">
+        <p class="error firsterro"></p>
+      </div>
+    
+      <div class="wrap">
+        <label for="last-name">Last Name</label>
+        <input type="text" class="last-name" placeholder="Your Last Name">
+        <p class="error lasterror"></p>
+      </div>
+    </div>
+    
+    
+      <div id="address">
+        <label>Email Address</label>
+      <input type="email" class="email" placeholder="Enter Your Email">
+      <p class="error emailerro"></p>
+      </div>
+
+      <label for="query_type" class="query_type">Query Type</label>
+      <div class="query_b">
+        <div class="querys">
+          <button type="button" class="btnn1 qbutton">
+            <span>
+              <img src="./assets/images/icon-radio-selected.svg" alt="">
+            </span>
+            General Enquiry
+          </button>
+        </div>
+        <p class="error"></p>
+
+        <div class="querys">
+          <button type="button"class="btnn2 qbutton">
+            <span>
+              <img src="./assets/images/icon-radio-selected.svg" alt="">
+            </span>
+             Support Request
+          </button>
+        </div>
+      </div>
+       <p class="error butterror"></p>
+
+      <div class="message">
+        <label for="message">Message</label>
+      <textarea name="" id="text_area" placeholder="Say Your Mind "></textarea>
+      <p class="error textareeor"></p>
+      </div>
+
+      <div class="consent">
+        <div class="consent-click">
+          <img src="./assets/images/icon-checkbox-check.svg" alt="">
+        </div> 
+        <p>I consent to being contacted by the team
+           To submit this form, please consent to being contacted</p>
+      </div>
+      <p class="error consenterror"></p>
+
+      <button id="sumbit">Submit</button>
+
+    </form>
+  </section>
+
+  <!-- Please enter a valid email address
+  
+
+  
+
+  This field is required -->
+
+  
+  
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script src="contt.js"></script>
+</body>
+</html>
