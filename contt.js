@@ -7,6 +7,14 @@ const successNotification = () =>{
   if(all_errors.every((error) => error.textContent == "")){
 
     success.style.opacity = "1";
+    success.scrollIntoView({
+      behavior: "smooth"
+    })
+
+   setTimeout(() =>{
+    success.style.opacity = "0";
+   }, 2000);
+   
 }else{
     success.style.opacity = "0";
 }
